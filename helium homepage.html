@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+        .homepage{
+            height: 100vh;
+            width: 100%;
+            
+
+        }
+        .left{
+            height: 100%;
+            width: 60%;
+            background: rgb(14,245,250);
+            background: linear-gradient(90deg, rgb(139, 251, 253) 52%, rgba(187, 249, 229, 0.914) 100%);
+        }
+        .right{
+            height: 100%;
+            width: 40%;
+            
+        }
+        .box{
+            height: 400px;
+            width: 700px;
+            background-color: white;
+            border-radius:8px ;
+            position: relative;
+            left: 550px;
+            bottom: 1200px;
+            box-shadow: 0 0 0 rgba(0,0,0,0.64) inset,
+                        0 0 30px rgba(0,0,0,0.64);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+        }
+        .text1{
+            height: 50%;
+            width: 50%;
+            margin-left:2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+        
+        }
+        .text1 h1{
+            position: relative;
+            left: 70px;
+            top: 65px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            color: rgb(4, 214, 214);
+        }
+        p{
+            margin-top: 70px;
+            margin-left: 30px;
+
+        }
+        h1{
+            font-size: 40px;
+            position: relative;
+            top: 12px;
+            left: 12px;
+            font-family: cursive;
+            color: rgb(193, 56, 165);
+        }
+        .text2{
+            height: 100%;
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            padding: 50px;
+            background-color:white;
+            padding: 10px;
+        }
+        .text2 h2, input, button{
+            margin: 10px;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+            border-radius: 60px;
+        }
+        .text2 button{
+            background-color: aqua;
+        }
+        .text2 input{
+            border: 2px solid aqua;
+        }
+        .right button{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+           height: 30px;
+           width: 60px;
+            border-radius: 15px;
+            background-color: #fff;
+
+       
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            position: relative;
+            top: 200px;
+            left: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="homepage">
+        <div class="left">
+            <h1>Helium</h1>
+            <div class="box2"></div>
+        </div>
+        <div class="right">
+            <button> Back</button>
+        </div>
+        <div class="box">
+            <div class="text1">
+                <h1>Helium</h1>
+                <p>Helium is a chemical element with the<br> symbol He and atomic number 2.</p>
+            </div>
+            <div class="text2">
+                <h2>Login or Signup</h2>
+                <input type="text" placeholder="abcd">
+                <input type="password" placeholder="password">
+                <button>Login</button>
+                <h3>Continue with Google > </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
