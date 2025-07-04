@@ -1,2 +1,1 @@
-# PRINCE
-HUIHUIHKJGHUTYFYTVB
+This is my first github repo
